@@ -1,0 +1,58 @@
+{
+  "name": "dwh-airquality",
+  "resources": [
+    {
+      "path": "airquality.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "DATE",
+            "type": "datetime"
+          },{
+            "name": "MATRIX",
+            "type": "string"
+          },{
+            "name": "LOCATION",
+            "type": "string"
+          },{
+            "name": "STATE NAME",
+            "type": "string"
+          },{
+            "name": "INSTRUMENT",
+            "type": "string"
+          },{
+            "name": "CAS NUMBER",
+            "type": "string"
+          },{
+            "name": "SUBSTANCE",
+            "type": "string"
+          },{
+            "name": "RESULT",
+            "type": "number"
+          },{
+            "name": "UNIT",
+            "type": "string"
+          },{
+            "name": "INTERVAL",
+            "type": "string"
+          },{
+            "name": "COUNTY",
+            "type": "string"
+          },{
+            "name": "ZIP CODE",
+            "type": "number"
+          },{
+            "name": "PUBLISHED DATE",
+            "type": "string"
+          },{
+            "name": "LATITUDE",
+            "type": "number"
+          },{
+            "name": "LONGITUDE",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]
+}
